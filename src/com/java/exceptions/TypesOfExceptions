@@ -1,0 +1,10 @@
+
+Checked exceptions
+All exceptions other than Runtime Exceptions are known as 
+Checked exceptions as the compiler checks them during compilation to see 
+whether the programmer has handled them or not. 
+If these exceptions are not handled/declared in the program, you will get compilation error. For example, SQLException, IOException, ClassNotFoundException etc.
+
+Unchecked Exceptions
+Runtime Exceptions are also known as Unchecked Exceptions. These exceptions are not checked at compile-time so compiler does not check whether the programmer has handled them or not but it’s the responsibility of the programmer to handle these exceptions and provide a safe exit. For example, ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc.
+
